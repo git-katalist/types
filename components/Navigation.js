@@ -7,11 +7,12 @@ import {
   Logo,
 } from "./Styles/Navigation.styles";
 import Link from "next/link";
-import { prefix } from "../prefix.js";
+// import { prefix } from "../prefix.js";
 
 import LogoImg from "../public/logo.png";
 
-const Navigation = () => {
+const Navigation = ({ prefix }) => {
+  // console.log({ prefix });
   return (
     <NavigationStyled>
       <NavbarInnerContainer>
