@@ -7,6 +7,7 @@ import {
   Logo,
 } from "./Styles/Navigation.styles";
 import Link from "next/link";
+import { prefix } from "../prefix.js";
 
 import LogoImg from "../public/logo.png";
 
