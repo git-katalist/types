@@ -1,3 +1,5 @@
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "/types";
+const debug = process.env.NODE_ENV !== "production";
+
+const prefix = !debug ? "/types" : "";
 
 export { prefix };
