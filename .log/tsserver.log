@@ -1,0 +1,478 @@
+Info 0    [16:01:05.100] Starting TS Server
+Info 1    [16:01:05.100] Version: 4.7.4
+Info 2    [16:01:05.100] Arguments: /usr/bin/node /home/tsotetsi/Desktop/types/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Desktop/types/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/fe862594087d96a308bb2f12594dc790/tscancellation*
+Info 3    [16:01:05.100] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [16:01:05.100] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:01:05.109] Format host information updated
+Info 6    [16:01:05.116] Search path: /home/tsotetsi/Desktop/types/pages
+Info 7    [16:01:05.117] For info: /home/tsotetsi/Desktop/types/pages/index.js :: Config file name: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 8    [16:01:05.117] Creating configuration project /home/tsotetsi/Desktop/types/jsconfig.json
+Info 9    [16:01:05.130] Config: /home/tsotetsi/Desktop/types/jsconfig.json : {
+ "rootNames": [
+  "/home/tsotetsi/Desktop/types/env-config.js",
+  "/home/tsotetsi/Desktop/types/next.config.js",
+  "/home/tsotetsi/Desktop/types/components/Meta.js",
+  "/home/tsotetsi/Desktop/types/pages/_app.js",
+  "/home/tsotetsi/Desktop/types/pages/_document.js",
+  "/home/tsotetsi/Desktop/types/pages/index.js",
+  "/home/tsotetsi/Desktop/types/pages/api/hello.js",
+  "/home/tsotetsi/Desktop/types/styles/Global.js",
+  "/home/tsotetsi/Desktop/types/styles/Theme.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "baseUrl": "/home/tsotetsi/Desktop/types",
+  "paths": {
+   "@Components/*": [
+    "./components/*"
+   ],
+   "Recipes/*": [
+    "./pages/noodles/recipes/*"
+   ],
+   "Styles/*": [
+    "./Styles/*"
+   ]
+  },
+  "pathsBasePath": "/home/tsotetsi/Desktop/types",
+  "configFilePath": "/home/tsotetsi/Desktop/types/jsconfig.json"
+ }
+}
+Info 10   [16:01:05.221] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 11   [16:01:06.181] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 960.2846579999896ms
+Info 12   [16:01:06.181] Project '/home/tsotetsi/Desktop/types/jsconfig.json' (Configured)
+Info 13   [16:01:06.181] 	Files (167)
+
+Info 14   [16:01:06.181] -----------------------------------------------
+Info 15   [16:01:06.188] AutoImportProviderProject: found 2 root files in 2 dependencies in 4.616926000046078 ms
+Info 16   [16:01:06.188] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [16:01:06.228] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 39.17391900002258ms
+Info 18   [16:01:06.228] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [16:01:06.228] 	Files (86)
+
+Info 20   [16:01:06.228] -----------------------------------------------
+Info 21   [16:01:06.923] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 22   [16:01:06.992] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 69.06391700002132ms
+Info 23   [16:01:06.992] Project '/home/tsotetsi/Desktop/types/jsconfig.json' (Configured)
+Info 24   [16:01:06.992] 	Files (198)
+
+Info 25   [16:01:06.992] -----------------------------------------------
+Info 26   [16:01:06.992] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 27   [16:01:06.992] 	Files (86)
+
+Info 28   [16:01:06.992] -----------------------------------------------
+Info 29   [16:01:07.253] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types/.log/ti-9940.log 0:: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 30   [16:01:07.254] Project: /home/tsotetsi/Desktop/types/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Desktop/types/.log/ti-9940.log
+Info 31   [16:01:07.254] Elapsed:: 0.9295229999697767ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types/.log/ti-9940.log 0:: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 32   [16:01:09.173] Before ensureProjectForOpenFiles:
+Info 33   [16:01:09.173] After ensureProjectForOpenFiles:
+Info 34   [16:01:09.174] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/types/pages/index.js
+Info 35   [16:01:20.859] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 36   [16:01:20.880] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 20.76744399999734ms
+Info 37   [16:01:20.880] Different program with same set of files
+Info 38   [16:01:27.825] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 39   [16:01:27.848] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 22.91828500002157ms
+Info 40   [16:01:27.848] Different program with same set of files
+Info 41   [16:01:30.077] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 42   [16:01:30.088] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 10.868427000008523ms
+Info 43   [16:01:30.088] Different program with same set of files
+Info 44   [16:01:30.091] getCompletionData: Get current token: 0.016823000041767955
+Info 45   [16:01:30.091] getCompletionData: Is inside comment: 0.005279999983031303
+Info 46   [16:01:30.091] getCompletionData: Get previous token: 0.053662999998778105
+Info 47   [16:01:30.092] getCompletionsAtPosition: isCompletionListBlocker: 0.16394900000886992
+Info 48   [16:01:30.104] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 49   [16:01:30.114] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 10.335036000004038ms
+Info 50   [16:01:30.114] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 51   [16:01:30.114] 	Files (0)
+
+Info 52   [16:01:30.114] -----------------------------------------------
+Info 53   [16:01:30.115] getExportInfoMap: cache miss or empty; calculating new results
+Info 54   [16:01:30.146] getExportInfoMap: done in 49.390277999977116 ms
+Info 55   [16:01:30.152] collectAutoImports: resolved 0 module specifiers, plus 0 ambient and 0 from cache
+Info 56   [16:01:30.152] collectAutoImports: response is complete
+Info 57   [16:01:30.152] collectAutoImports: 5.789005999977235
+Info 58   [16:01:30.152] getCompletionData: Semantic work: 60.397776999976486
+Info 59   [16:01:30.234] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 21.12445599999046
+Info 60   [16:01:31.132] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 61   [16:01:31.142] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 9.784405999991577ms
+Info 62   [16:01:31.142] Different program with same set of files
+Info 63   [16:01:33.141] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 64   [16:01:33.154] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 12.829828999994788ms
+Info 65   [16:01:33.154] Different program with same set of files
+Info 66   [16:01:34.272] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 67   [16:01:34.281] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 8.92382699996233ms
+Info 68   [16:01:34.281] Different program with same set of files
+Info 69   [16:01:35.272] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 70   [16:01:35.281] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 9.055456999980379ms
+Info 71   [16:01:35.281] Different program with same set of files
+Info 72   [16:01:41.657] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 73   [16:01:41.670] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 12.824764000019059ms
+Info 74   [16:01:41.670] Different program with same set of files
+Info 75   [16:01:41.943] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 76   [16:01:41.955] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 12.368216999981087ms
+Info 77   [16:01:41.955] Different program with same set of files
+Info 78   [16:01:41.956] getCompletionData: Get current token: 0.02540799998678267
+Info 79   [16:01:41.956] getCompletionData: Is inside comment: 0.007556999975349754
+Info 80   [16:01:41.956] getCompletionData: Get previous token: 0.11882699996931478
+Info 81   [16:01:41.957] getCompletionsAtPosition: isCompletionListBlocker: 0.0077859999728389084
+Info 82   [16:01:41.968] getExportInfoMap: cache hit
+Info 83   [16:01:41.977] collectAutoImports: resolved 7 module specifiers, plus 0 ambient and 6 from cache
+Info 84   [16:01:41.977] collectAutoImports: response is complete
+Info 85   [16:01:41.977] collectAutoImports: 8.297735000029206
+Info 86   [16:01:41.977] getCompletionData: Semantic work: 20.361852000001818
+Info 87   [16:01:42.018] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.873981999990065
+Info 88   [16:01:42.969] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 89   [16:01:42.976] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 6.722170000022743ms
+Info 90   [16:01:42.976] Different program with same set of files
+Info 91   [16:01:44.307] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 92   [16:01:44.317] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 9.786243000009563ms
+Info 93   [16:01:44.317] Different program with same set of files
+Info 94   [16:01:44.382] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 95   [16:01:44.387] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 4.805968999979086ms
+Info 96   [16:01:44.387] Different program with same set of files
+Info 97   [16:01:44.880] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 98   [16:01:44.893] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 12.97391100000823ms
+Info 99   [16:01:44.894] Different program with same set of files
+Info 100  [16:01:45.333] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 101  [16:01:45.342] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 8.356838000006974ms
+Info 102  [16:01:45.342] Different program with same set of files
+Info 103  [16:01:45.343] getCompletionData: Get current token: 0.013611999980639666
+Info 104  [16:01:45.343] getCompletionData: Is inside comment: 0.003055000037420541
+Info 105  [16:01:45.343] getCompletionData: Get previous token: 0.03072099998826161
+Info 106  [16:01:45.343] getCompletionsAtPosition: isCompletionListBlocker: 0.2832369999960065
+Info 107  [16:01:45.343] Returning an empty list because completion was requested in an invalid position.
+Info 108  [16:01:45.390] getCompletionData: Get current token: 0.008128999965265393
+Info 109  [16:01:45.390] getCompletionData: Is inside comment: 0.002449000021442771
+Info 110  [16:01:45.390] getCompletionData: Get previous token: 0.016477999975904822
+Info 111  [16:01:45.390] getCompletionsAtPosition: isCompletionListBlocker: 0.030774999991990626
+Info 112  [16:01:45.390] Returning an empty list because completion was requested in an invalid position.
+Info 113  [16:01:45.412] getCompletionData: Get current token: 0.011305000050924718
+Info 114  [16:01:45.412] getCompletionData: Is inside comment: 0.006160000048112124
+Info 115  [16:01:45.412] getCompletionData: Get previous token: 0.02029499999480322
+Info 116  [16:01:45.412] getCompletionsAtPosition: isCompletionListBlocker: 0.021302999986801296
+Info 117  [16:01:45.412] Returning an empty list because completion was requested in an invalid position.
+Info 118  [16:01:45.435] getCompletionData: Get current token: 0.025492999993730336
+Info 119  [16:01:45.435] getCompletionData: Is inside comment: 0.00817099999403581
+Info 120  [16:01:45.435] getCompletionData: Get previous token: 0.055210000020451844
+Info 121  [16:01:45.435] getCompletionsAtPosition: isCompletionListBlocker: 0.025628000032156706
+Info 122  [16:01:45.435] Returning an empty list because completion was requested in an invalid position.
+Info 123  [16:01:45.714] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 124  [16:01:45.724] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 10.34879199997522ms
+Info 125  [16:01:45.724] Different program with same set of files
+Info 126  [16:01:45.726] getCompletionData: Get current token: 0.03849499998614192
+Info 127  [16:01:45.726] getCompletionData: Is inside comment: 0.010259000002406538
+Info 128  [16:01:45.726] getCompletionData: Get previous token: 0.08559899998363107
+Info 129  [16:01:45.726] getCompletionsAtPosition: isCompletionListBlocker: 0.02744799997890368
+Info 130  [16:01:45.726] Returning an empty list because completion was requested in an invalid position.
+Info 131  [16:01:45.781] getCompletionData: Get current token: 0.01694800000404939
+Info 132  [16:01:45.781] getCompletionData: Is inside comment: 0.004511999955866486
+Info 133  [16:01:45.781] getCompletionData: Get previous token: 0.031682000029832125
+Info 134  [16:01:45.781] getCompletionsAtPosition: isCompletionListBlocker: 0.016724999994039536
+Info 135  [16:01:45.781] Returning an empty list because completion was requested in an invalid position.
+Info 136  [16:01:45.781] getCompletionData: Get current token: 0.01651699998183176
+Info 137  [16:01:45.781] getCompletionData: Is inside comment: 0.004061000014189631
+Info 138  [16:01:45.781] getCompletionData: Get previous token: 0.029938999970909208
+Info 139  [16:01:45.781] getCompletionsAtPosition: isCompletionListBlocker: 0.010714000032749027
+Info 140  [16:01:45.781] Returning an empty list because completion was requested in an invalid position.
+Info 141  [16:01:45.782] getCompletionData: Get current token: 0.01689600001554936
+Info 142  [16:01:45.782] getCompletionData: Is inside comment: 0.0033840000396594405
+Info 143  [16:01:45.782] getCompletionData: Get previous token: 0.03045900003053248
+Info 144  [16:01:45.782] getCompletionsAtPosition: isCompletionListBlocker: 0.009286999993491918
+Info 145  [16:01:45.782] Returning an empty list because completion was requested in an invalid position.
+Info 146  [16:01:46.391] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 147  [16:01:46.402] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 10.86747200001264ms
+Info 148  [16:01:46.402] Different program with same set of files
+Info 149  [16:01:46.848] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 150  [16:01:46.864] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 15.784627000044566ms
+Info 151  [16:01:46.864] Different program with same set of files
+Info 152  [16:01:46.912] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 153  [16:01:46.916] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 3.4072700000251643ms
+Info 154  [16:01:46.916] Different program with same set of files
+Info 155  [16:01:47.219] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 156  [16:01:47.235] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 16.20576500002062ms
+Info 157  [16:01:47.235] Different program with same set of files
+Info 158  [16:01:47.596] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 159  [16:01:47.606] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 9.888297000026796ms
+Info 160  [16:01:47.606] Different program with same set of files
+Info 161  [16:01:47.656] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 162  [16:01:47.659] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 3.3727499999804422ms
+Info 163  [16:01:47.659] Different program with same set of files
+Info 164  [16:01:47.816] getCompletionData: Get current token: 0.03972200001589954
+Info 165  [16:01:47.816] getCompletionData: Is inside comment: 0.015279999992344528
+Info 166  [16:01:47.816] getCompletionData: Get previous token: 0.0743149999761954
+Info 167  [16:01:47.816] getCompletionsAtPosition: isCompletionListBlocker: 0.02272899996023625
+Info 168  [16:01:47.816] Returning an empty list because completion was requested in an invalid position.
+Info 169  [16:01:47.821] getCompletionData: Get current token: 0.04346299997996539
+Info 170  [16:01:47.821] getCompletionData: Is inside comment: 0.008402000006753951
+Info 171  [16:01:47.821] getCompletionData: Get previous token: 0.07379399996716529
+Info 172  [16:01:47.821] getCompletionsAtPosition: isCompletionListBlocker: 0.023332999960985035
+Info 173  [16:01:47.821] Returning an empty list because completion was requested in an invalid position.
+Info 174  [16:01:47.826] getCompletionData: Get current token: 0.024048999999649823
+Info 175  [16:01:47.826] getCompletionData: Is inside comment: 0.006709999986924231
+Info 176  [16:01:47.827] getCompletionData: Get previous token: 0.045695000037085265
+Info 177  [16:01:47.827] getCompletionsAtPosition: isCompletionListBlocker: 0.019496999972034246
+Info 178  [16:01:47.827] Returning an empty list because completion was requested in an invalid position.
+Info 179  [16:01:47.851] getCompletionData: Get current token: 0.025928999995812774
+Info 180  [16:01:47.851] getCompletionData: Is inside comment: 0.0070050000213086605
+Info 181  [16:01:47.851] getCompletionData: Get previous token: 0.04875499999616295
+Info 182  [16:01:47.851] getCompletionsAtPosition: isCompletionListBlocker: 0.023396999982651323
+Info 183  [16:01:47.851] Returning an empty list because completion was requested in an invalid position.
+Info 184  [16:01:48.608] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 185  [16:01:48.620] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 11.821166999987327ms
+Info 186  [16:01:48.620] Different program with same set of files
+Info 187  [16:01:48.621] getCompletionData: Get current token: 0.039846999978180975
+Info 188  [16:01:48.621] getCompletionData: Is inside comment: 0.006373999989591539
+Info 189  [16:01:48.621] getCompletionData: Get previous token: 0.06750000000465661
+Info 190  [16:01:48.621] getCompletionsAtPosition: isCompletionListBlocker: 0.021455999987665564
+Info 191  [16:01:48.621] Returning an empty list because completion was requested in an invalid position.
+Info 192  [16:01:48.667] getCompletionData: Get current token: 0.010798999981489033
+Info 193  [16:01:48.667] getCompletionData: Is inside comment: 0.005737000028602779
+Info 194  [16:01:48.667] getCompletionData: Get previous token: 0.027223999961279333
+Info 195  [16:01:48.667] getCompletionsAtPosition: isCompletionListBlocker: 0.046122999978251755
+Info 196  [16:01:48.667] Returning an empty list because completion was requested in an invalid position.
+Info 197  [16:01:48.668] getCompletionData: Get current token: 0.00805099995341152
+Info 198  [16:01:48.668] getCompletionData: Is inside comment: 0.0015899999998509884
+Info 199  [16:01:48.668] getCompletionData: Get previous token: 0.014088999945670366
+Info 200  [16:01:48.668] getCompletionsAtPosition: isCompletionListBlocker: 0.008403000014368445
+Info 201  [16:01:48.668] Returning an empty list because completion was requested in an invalid position.
+Info 202  [16:01:48.668] getCompletionData: Get current token: 0.008310000004712492
+Info 203  [16:01:48.668] getCompletionData: Is inside comment: 0.0013800000306218863
+Info 204  [16:01:48.668] getCompletionData: Get previous token: 0.013986999983899295
+Info 205  [16:01:48.668] getCompletionsAtPosition: isCompletionListBlocker: 0.004870999953709543
+Info 206  [16:01:48.668] Returning an empty list because completion was requested in an invalid position.
+Info 207  [16:01:48.676] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 208  [16:01:48.683] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 7.04701700003352ms
+Info 209  [16:01:48.683] Different program with same set of files
+Info 210  [16:01:48.836] getCompletionData: Get current token: 0.03343200002564117
+Info 211  [16:01:48.836] getCompletionData: Is inside comment: 0.006770000036340207
+Info 212  [16:01:48.836] getCompletionData: Get previous token: 0.07137399999191985
+Info 213  [16:01:48.836] getCompletionsAtPosition: isCompletionListBlocker: 0.02159300004132092
+Info 214  [16:01:48.837] Returning an empty list because completion was requested in an invalid position.
+Info 215  [16:01:48.846] getCompletionData: Get current token: 0.027452000009361655
+Info 216  [16:01:48.846] getCompletionData: Is inside comment: 0.006843000010121614
+Info 217  [16:01:48.846] getCompletionData: Get previous token: 0.04462500003864989
+Info 218  [16:01:48.846] getCompletionsAtPosition: isCompletionListBlocker: 0.021176000009290874
+Info 219  [16:01:48.846] Returning an empty list because completion was requested in an invalid position.
+Info 220  [16:01:48.849] getCompletionData: Get current token: 0.024465999973472208
+Info 221  [16:01:48.850] getCompletionData: Is inside comment: 0.00635899999178946
+Info 222  [16:01:48.850] getCompletionData: Get previous token: 0.043520000006537884
+Info 223  [16:01:48.850] getCompletionsAtPosition: isCompletionListBlocker: 0.02309100003913045
+Info 224  [16:01:48.850] Returning an empty list because completion was requested in an invalid position.
+Info 225  [16:01:48.853] getCompletionData: Get current token: 0.02205100003629923
+Info 226  [16:01:48.853] getCompletionData: Is inside comment: 0.0052010000217705965
+Info 227  [16:01:48.853] getCompletionData: Get previous token: 0.03712500003166497
+Info 228  [16:01:48.854] getCompletionsAtPosition: isCompletionListBlocker: 0.019675999996252358
+Info 229  [16:01:48.854] Returning an empty list because completion was requested in an invalid position.
+Info 230  [16:01:49.062] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 231  [16:01:49.077] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 15.128578000003472ms
+Info 232  [16:01:49.077] Different program with same set of files
+Info 233  [16:01:50.187] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 234  [16:01:50.200] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 13.001153000048362ms
+Info 235  [16:01:50.200] Different program with same set of files
+Info 236  [16:01:51.446] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 237  [16:01:51.459] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 12.66806200001156ms
+Info 238  [16:01:51.460] Different program with same set of files
+Info 239  [16:01:52.569] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 240  [16:01:52.579] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 9.258634000027087ms
+Info 241  [16:01:52.579] Different program with same set of files
+Info 242  [16:01:52.579] getCompletionData: Get current token: 0.011045999999623746
+Info 243  [16:01:52.579] getCompletionData: Is inside comment: 0.0026359999901615083
+Info 244  [16:01:52.579] getCompletionData: Get previous token: 0.020898999995552003
+Info 245  [16:01:52.579] getCompletionsAtPosition: isCompletionListBlocker: 0.01629200001480058
+Info 246  [16:01:52.579] Returning an empty list because completion was requested in an invalid position.
+Info 247  [16:01:52.614] getCompletionData: Get current token: 0.007917999988421798
+Info 248  [16:01:52.614] getCompletionData: Is inside comment: 0.0022139999782666564
+Info 249  [16:01:52.614] getCompletionData: Get previous token: 0.01686500001233071
+Info 250  [16:01:52.615] getCompletionsAtPosition: isCompletionListBlocker: 0.10041700000874698
+Info 251  [16:01:52.615] Returning an empty list because completion was requested in an invalid position.
+Info 252  [16:01:52.618] getCompletionData: Get current token: 0.008097999962046742
+Info 253  [16:01:52.618] getCompletionData: Is inside comment: 0.002154999994672835
+Info 254  [16:01:52.618] getCompletionData: Get previous token: 0.014612000028137118
+Info 255  [16:01:52.618] getCompletionsAtPosition: isCompletionListBlocker: 0.015454000036697835
+Info 256  [16:01:52.618] Returning an empty list because completion was requested in an invalid position.
+Info 257  [16:01:52.640] getCompletionData: Get current token: 0.008880999987013638
+Info 258  [16:01:52.640] getCompletionData: Is inside comment: 0.002181999967433512
+Info 259  [16:01:52.640] getCompletionData: Get previous token: 0.01600399997550994
+Info 260  [16:01:52.640] getCompletionsAtPosition: isCompletionListBlocker: 0.01324100000783801
+Info 261  [16:01:52.640] Returning an empty list because completion was requested in an invalid position.
+Info 262  [16:01:53.644] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 263  [16:01:53.652] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 8.689728000026662ms
+Info 264  [16:01:53.652] Different program with same set of files
+Info 265  [16:01:53.653] getCompletionData: Get current token: 0.033774000010453165
+Info 266  [16:01:53.653] getCompletionData: Is inside comment: 0.006304999988060445
+Info 267  [16:01:53.653] getCompletionData: Get previous token: 0.08601899998029694
+Info 268  [16:01:53.653] getCompletionsAtPosition: isCompletionListBlocker: 0.024862000020220876
+Info 269  [16:01:53.653] Returning an empty list because completion was requested in an invalid position.
+Info 270  [16:01:53.654] getCompletionData: Get current token: 0.024947999976575375
+Info 271  [16:01:53.654] getCompletionData: Is inside comment: 0.005586999992374331
+Info 272  [16:01:53.654] getCompletionData: Get previous token: 0.0435620000353083
+Info 273  [16:01:53.654] getCompletionsAtPosition: isCompletionListBlocker: 0.01995399995939806
+Info 274  [16:01:53.654] Returning an empty list because completion was requested in an invalid position.
+Info 275  [16:01:53.655] getCompletionData: Get current token: 0.042114000010769814
+Info 276  [16:01:53.655] getCompletionData: Is inside comment: 0.009337000024970621
+Info 277  [16:01:53.655] getCompletionData: Get previous token: 0.08663400000659749
+Info 278  [16:01:53.656] getCompletionsAtPosition: isCompletionListBlocker: 0.30999900004826486
+Info 279  [16:01:53.656] Returning an empty list because completion was requested in an invalid position.
+Info 280  [16:01:53.656] getCompletionData: Get current token: 0.04264800000237301
+Info 281  [16:01:53.656] getCompletionData: Is inside comment: 0.00993399997241795
+Info 282  [16:01:53.656] getCompletionData: Get previous token: 0.08386899996548891
+Info 283  [16:01:53.656] getCompletionsAtPosition: isCompletionListBlocker: 0.03251200000522658
+Info 284  [16:01:53.657] Returning an empty list because completion was requested in an invalid position.
+Info 285  [16:01:53.704] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 286  [16:01:53.707] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 2.897004999977071ms
+Info 287  [16:01:53.707] Different program with same set of files
+Info 288  [16:01:54.342] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 289  [16:01:54.353] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 10.708326999971177ms
+Info 290  [16:01:54.353] Different program with same set of files
+Info 291  [16:01:54.985] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 292  [16:01:54.993] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 7.952533999981824ms
+Info 293  [16:01:54.993] Different program with same set of files
+Info 294  [16:01:54.993] getCompletionData: Get current token: 0.02501400001347065
+Info 295  [16:01:54.993] getCompletionData: Is inside comment: 0.0031089999829418957
+Info 296  [16:01:54.993] getCompletionData: Get previous token: 0.02860399999190122
+Info 297  [16:01:54.993] getCompletionsAtPosition: isCompletionListBlocker: 0.025422000035177916
+Info 298  [16:01:54.993] Returning an empty list because completion was requested in an invalid position.
+Info 299  [16:01:55.039] getCompletionData: Get current token: 0.008932999975513667
+Info 300  [16:01:55.039] getCompletionData: Is inside comment: 0.0022190000163391232
+Info 301  [16:01:55.039] getCompletionData: Get previous token: 0.017250999982934445
+Info 302  [16:01:55.040] getCompletionsAtPosition: isCompletionListBlocker: 0.009249000053387135
+Info 303  [16:01:55.040] Returning an empty list because completion was requested in an invalid position.
+Info 304  [16:01:55.040] getCompletionData: Get current token: 0.0075450000003911555
+Info 305  [16:01:55.040] getCompletionData: Is inside comment: 0.0018980000168085098
+Info 306  [16:01:55.040] getCompletionData: Get previous token: 0.014185999985784292
+Info 307  [16:01:55.040] getCompletionsAtPosition: isCompletionListBlocker: 0.005016000010073185
+Info 308  [16:01:55.040] Returning an empty list because completion was requested in an invalid position.
+Info 309  [16:01:55.040] getCompletionData: Get current token: 0.01131500001065433
+Info 310  [16:01:55.040] getCompletionData: Is inside comment: 0.0015639999764971435
+Info 311  [16:01:55.040] getCompletionData: Get previous token: 0.01764899998670444
+Info 312  [16:01:55.040] getCompletionsAtPosition: isCompletionListBlocker: 0.0063260000315494835
+Info 313  [16:01:55.040] Returning an empty list because completion was requested in an invalid position.
+Info 314  [16:01:55.043] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 315  [16:01:55.050] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 6.48217700002715ms
+Info 316  [16:01:55.050] Different program with same set of files
+Info 317  [16:01:55.473] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 318  [16:01:55.484] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 10.152014999999665ms
+Info 319  [16:01:55.484] Different program with same set of files
+Info 320  [16:01:55.485] getCompletionData: Get current token: 0.032750000013038516
+Info 321  [16:01:55.485] getCompletionData: Is inside comment: 0.006080000021029264
+Info 322  [16:01:55.485] getCompletionData: Get previous token: 0.06678599998122081
+Info 323  [16:01:55.485] getCompletionsAtPosition: isCompletionListBlocker: 0.022966000018641353
+Info 324  [16:01:55.485] Returning an empty list because completion was requested in an invalid position.
+Info 325  [16:01:55.532] getCompletionData: Get current token: 0.009132999985013157
+Info 326  [16:01:55.532] getCompletionData: Is inside comment: 0.0020830000285059214
+Info 327  [16:01:55.532] getCompletionData: Get previous token: 0.017072000016923994
+Info 328  [16:01:55.532] getCompletionsAtPosition: isCompletionListBlocker: 0.009637999988626689
+Info 329  [16:01:55.532] Returning an empty list because completion was requested in an invalid position.
+Info 330  [16:01:55.536] getCompletionData: Get current token: 0.010233000037260354
+Info 331  [16:01:55.536] getCompletionData: Is inside comment: 0.002078999998047948
+Info 332  [16:01:55.536] getCompletionData: Get previous token: 0.024710000026971102
+Info 333  [16:01:55.536] getCompletionsAtPosition: isCompletionListBlocker: 0.010608999989926815
+Info 334  [16:01:55.536] Returning an empty list because completion was requested in an invalid position.
+Info 335  [16:01:55.558] getCompletionData: Get current token: 0.01730499998666346
+Info 336  [16:01:55.558] getCompletionData: Is inside comment: 0.004040999978315085
+Info 337  [16:01:55.558] getCompletionData: Get previous token: 0.031315999978687614
+Info 338  [16:01:55.558] getCompletionsAtPosition: isCompletionListBlocker: 0.016131000011228025
+Info 339  [16:01:55.558] Returning an empty list because completion was requested in an invalid position.
+Info 340  [16:01:57.027] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 341  [16:01:57.038] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 10.73153300001286ms
+Info 342  [16:01:57.038] Different program with same set of files
+Info 343  [16:01:57.039] getCompletionData: Get current token: 0.033562000025995076
+Info 344  [16:01:57.039] getCompletionData: Is inside comment: 0.00583299994468689
+Info 345  [16:01:57.039] getCompletionData: Get previous token: 0.06478099996456876
+Info 346  [16:01:57.039] getCompletionsAtPosition: isCompletionListBlocker: 0.021892000047955662
+Info 347  [16:01:57.039] Returning an empty list because completion was requested in an invalid position.
+Info 348  [16:01:57.075] getCompletionData: Get current token: 0.008647000009659678
+Info 349  [16:01:57.075] getCompletionData: Is inside comment: 0.002133999951183796
+Info 350  [16:01:57.075] getCompletionData: Get previous token: 0.016509000037331134
+Info 351  [16:01:57.075] getCompletionsAtPosition: isCompletionListBlocker: 0.007790000003296882
+Info 352  [16:01:57.075] Returning an empty list because completion was requested in an invalid position.
+Info 353  [16:01:57.097] getCompletionData: Get current token: 0.013757999986410141
+Info 354  [16:01:57.097] getCompletionData: Is inside comment: 0.0029059999505989254
+Info 355  [16:01:57.097] getCompletionData: Get previous token: 0.021769999992102385
+Info 356  [16:01:57.097] getCompletionsAtPosition: isCompletionListBlocker: 0.01276100001996383
+Info 357  [16:01:57.097] Returning an empty list because completion was requested in an invalid position.
+Info 358  [16:01:57.099] getCompletionData: Get current token: 0.012617999978829175
+Info 359  [16:01:57.099] getCompletionData: Is inside comment: 0.0026240000152029097
+Info 360  [16:01:57.099] getCompletionData: Get previous token: 0.020580000011250377
+Info 361  [16:01:57.099] getCompletionsAtPosition: isCompletionListBlocker: 0.007762999972328544
+Info 362  [16:01:57.099] Returning an empty list because completion was requested in an invalid position.
+Info 363  [16:01:59.332] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 364  [16:01:59.341] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 9.091912000032607ms
+Info 365  [16:01:59.341] Different program with same set of files
+Info 366  [16:02:18.364] Search path: /home/tsotetsi/Desktop/types
+Info 367  [16:02:18.364] For info: /home/tsotetsi/Desktop/types/next.config.js :: Config file name: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 368  [16:02:33.542] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 369  [16:02:33.556] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 12.963507000007667ms
+Info 370  [16:02:33.556] Different program with same set of files
+Info 371  [16:02:33.919] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 372  [16:02:33.935] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 16.34012399998028ms
+Info 373  [16:02:33.935] Different program with same set of files
+Info 374  [16:02:41.467] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 375  [16:02:41.476] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 40 structureChanged: false structureIsReused:: Completely Elapsed: 9.210275000019465ms
+Info 376  [16:02:41.476] Different program with same set of files
+Info 377  [16:02:46.695] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 378  [16:02:46.709] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 41 structureChanged: false structureIsReused:: Completely Elapsed: 13.753926999983378ms
+Info 379  [16:02:46.709] Different program with same set of files
+Info 380  [16:02:47.933] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 381  [16:02:47.941] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 42 structureChanged: false structureIsReused:: Completely Elapsed: 8.642976999981329ms
+Info 382  [16:02:47.941] Different program with same set of files
+Info 383  [16:02:48.787] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 384  [16:02:48.793] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 43 structureChanged: false structureIsReused:: Completely Elapsed: 6.378900000010617ms
+Info 385  [16:02:48.793] Different program with same set of files
+Info 386  [16:03:06.512] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 387  [16:03:06.520] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 44 structureChanged: false structureIsReused:: Completely Elapsed: 8.127982000005431ms
+Info 388  [16:03:06.520] Different program with same set of files
+Info 389  [16:03:18.052] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 390  [16:03:18.061] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 45 structureChanged: false structureIsReused:: Completely Elapsed: 8.993934000027366ms
+Info 391  [16:03:18.061] Different program with same set of files
+Info 392  [16:03:24.657] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 393  [16:03:24.668] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 46 structureChanged: false structureIsReused:: Completely Elapsed: 11.113838999997824ms
+Info 394  [16:03:24.668] Different program with same set of files
+Info 395  [16:03:36.849] Search path: /home/tsotetsi/Desktop/types
+Info 396  [16:03:36.849] For info: /home/tsotetsi/Desktop/types/env-config.js :: Config file name: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 397  [16:03:42.954] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 398  [16:03:42.967] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 47 structureChanged: false structureIsReused:: Completely Elapsed: 12.97092100000009ms
+Info 399  [16:03:42.967] Different program with same set of files
+Info 400  [16:03:43.267] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 401  [16:03:43.278] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 48 structureChanged: false structureIsReused:: Completely Elapsed: 10.6738170000026ms
+Info 402  [16:03:43.278] Different program with same set of files
+Info 403  [16:03:44.822] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 404  [16:03:44.834] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 49 structureChanged: false structureIsReused:: Completely Elapsed: 11.010681000072509ms
+Info 405  [16:03:44.834] Different program with same set of files
+Info 406  [16:03:45.751] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 407  [16:03:45.761] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 50 structureChanged: false structureIsReused:: Completely Elapsed: 9.602406000019982ms
+Info 408  [16:03:45.761] Different program with same set of files
+Info 409  [16:03:53.419] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 410  [16:03:53.425] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 51 structureChanged: false structureIsReused:: Completely Elapsed: 6.421659999992698ms
+Info 411  [16:03:53.425] Different program with same set of files
+Info 412  [16:04:21.983] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types/.next :: WatchInfo: /home/tsotetsi/Desktop/types 0 undefined Project: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Failed Lookup Locations
+Info 413  [16:04:21.984] Elapsed:: 0.2456669999519363ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types/.next :: WatchInfo: /home/tsotetsi/Desktop/types 0 undefined Project: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Failed Lookup Locations
+Info 414  [16:04:22.984] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 415  [16:04:22.985] Elapsed:: 0.37028699996881187ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 416  [16:04:23.237] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 417  [16:04:23.238] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 52 structureChanged: false structureIsReused:: Completely Elapsed: 0.3832759999204427ms
+Info 418  [16:04:24.035] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types/.next/trace 0:: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 419  [16:04:24.036] Elapsed:: 0.6837860000086948ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types/.next/trace 0:: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 420  [16:04:24.286] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 421  [16:04:24.286] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 53 structureChanged: false structureIsReused:: Completely Elapsed: 0.34607499989215285ms
+Info 422  [16:04:25.839] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 423  [16:04:25.839] Elapsed:: 0.2013609999557957ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 424  [16:04:26.091] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 425  [16:04:26.092] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 54 structureChanged: false structureIsReused:: Completely Elapsed: 0.2831879999721423ms
+Info 426  [16:04:27.059] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 427  [16:04:27.060] Elapsed:: 0.2149900000076741ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 428  [16:04:27.312] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 429  [16:04:27.313] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 55 structureChanged: false structureIsReused:: Completely Elapsed: 0.5992710000136867ms
+Info 430  [16:04:29.560] Before ensureProjectForOpenFiles:
+Info 431  [16:04:29.560] After ensureProjectForOpenFiles:
+Info 432  [16:04:29.561] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/types/pages/index.js,/home/tsotetsi/Desktop/types/next.config.js,/home/tsotetsi/Desktop/types/env-config.js
+Info 433  [16:04:40.723] DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 434  [16:04:40.724] Elapsed:: 0.18437100003939122ms DirectoryWatcher:: Triggered with /home/tsotetsi/Desktop/types :: WatchInfo: /home/tsotetsi/Desktop/types 1 undefined Config: /home/tsotetsi/Desktop/types/jsconfig.json WatchType: Wild card directory
+Info 435  [16:04:40.975] Starting updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json
+Info 436  [16:04:40.975] Finishing updateGraphWorker: Project: /home/tsotetsi/Desktop/types/jsconfig.json Version: 56 structureChanged: false structureIsReused:: Completely Elapsed: 0.6368950000032783ms
+Info 437  [16:04:43.224] Before ensureProjectForOpenFiles:
+Info 438  [16:04:43.224] After ensureProjectForOpenFiles:
+Info 439  [16:04:43.224] got projects updated in background, updating diagnostics for /home/tsotetsi/Desktop/types/pages/index.js,/home/tsotetsi/Desktop/types/next.config.js,/home/tsotetsi/Desktop/types/env-config.js
