@@ -28,7 +28,7 @@ const Navigation = () => {
         <RightContainer>
           <Link href="/">
             <a>
-              <Logo src="/logo.png" alt=""></Logo>
+              <Logo src={`${prefix}/logo.png`} alt=""></Logo>
             </a>
           </Link>{" "}
         </RightContainer>
